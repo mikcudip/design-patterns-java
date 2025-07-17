@@ -1,5 +1,5 @@
 package core;
 
 public interface GeometricFigure {
-  Double CalculateArea();
+  Double calculateArea();
 }

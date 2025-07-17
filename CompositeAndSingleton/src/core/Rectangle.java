@@ -10,7 +10,7 @@ public class Rectangle implements GeometricFigure {
   }
 
   @Override
-  public Double CalculateArea() {
+  public Double calculateArea() {
     return base * height;
   }
 }

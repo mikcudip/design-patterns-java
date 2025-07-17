@@ -10,7 +10,7 @@ public class Triangle implements GeometricFigure {
   }
 
   @Override
-  public Double CalculateArea() {
+  public Double calculateArea() {
     return base * height / 2;
   }
 }

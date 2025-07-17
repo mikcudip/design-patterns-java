@@ -15,10 +15,10 @@ public class GeometricFigureComposite implements GeometricFigure {
   }
 
   @Override
-  public Double CalculateArea() {
+  public Double calculateArea() {
     Double area = 0.0;
     for (GeometricFigure geometricFigure : geometricFigures) {
-      area += geometricFigure.CalculateArea();
+      area += geometricFigure.calculateArea();
     }
     return area;
   }

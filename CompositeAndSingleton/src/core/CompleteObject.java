@@ -22,7 +22,7 @@ public class CompleteObject {
   public Double calculateTotalArea() {
     Double totalArea = 0.0;
     for (GeometricFigure geometricFigure : geometricFigures) {
-      totalArea += geometricFigure.CalculateArea();
+      totalArea += geometricFigure.calculateArea();
     }
     return totalArea;
   }

@@ -8,7 +8,7 @@ public class Circle implements GeometricFigure {
   }
 
   @Override
-  public Double CalculateArea() {
+  public Double calculateArea() {
     return Math.PI * ratio * ratio;
   }
 }
